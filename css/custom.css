@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Afacad;
+    src: url(../fonts/Afacad/Afacad-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+
+.container-fluid{
+    background-color: #e9f5db;
+}
+
+.noPadding {
+    padding: 0px;
+}
+.marginTop{
+    margin-top: 50px;
+}
+
+a:link {
+    color:#344E41;
+    text-decoration: none;
+}
+a:hover {
+    color:#8FC0A9;
+}
+a:active {
+    color:#344E41;
+}
+a:visited {
+    color:#344E41;
+    text-decoration: underline;
+}
+a:focus {
+    color:#8FC0A9;
+}
+
+.customNav {
+    background-color: #8FC0A9 !important;
+    font-family: Lora;
+    color:#344E41 !important;
+}
+.sanSerif{
+    font-family: Afacad;
+    color:#344E41 !important;
+}
+#about h1{
+    font-family: Lora;
+}
+#about p{
+    font-family: Afacad;
+    font-size: 18pt;
+    color:#4f7664;
+}
+.display-6{
+    font-family: Afacad !important;
+}
+.blockquote-footer{
+    font-family: Afacad;
+}
+.card-body{
+    background-color: #D1ECBA;
+    font-family: Afacad;
+}
+.btnColor {
+    background-color: #344E41;
+    color: #D1ECBA !important;
+    border: #344E41;
+}
+.figure-caption {
+    font-family: Afacad;
+}
+/* portfolio css*/
+#title {
+    font-family: Lora;
+    color:#344E41;
+    
+}
+#title p{
+    text-align: center !important;
+}
+.portfolioItem p {
+    font-family: Afacad;
+}
+.portfolioItem {
+    padding: 20px;
+}
+.h3 {
+    font-family: Lora !important;
+    color:#344E41;
+}
+.portfolioItem a:link {
+    color:#344E41;
+    text-decoration: none;
+}
+.portfolioItem a:hover {
+    color:#8FC0A9;
+}
+.portfolioItem a:active {
+    color:#344E41;
+}
+.portfolioItem a:visited {
+    color:#344E41;
+    text-decoration: underline;
+}
+.portfolioItem a:focus {
+    color:#8FC0A9;
+}
+.paddingTop {
+    padding-top: 90px;
+}
+.noPaddingTop {
+    padding-top: 0px;
+}
+
+
+/* contact css */
+#mainArea h1{
+    font-family: Lora !important;
+    color:#344E41;
+}
+#mainArea p{
+    font-family: Afacad;
+    color:#344E41;
+}
+.padder {
+    padding: 50px;
+}
+.socialLink {
+    font-family: Lora;
+}
+.socialLink a:link {
+    color:#344E41;
+    text-decoration: none;
+}
+.socialLink a:hover {
+    color:#8FC0A9;
+}
+.socialLink a:active {
+    color:#344E41;
+}
+.socialLink a:visited {
+    color:#344E41;
+    text-decoration: underline;
+}
+.socialLink a:focus {
+    color:#8FC0A9;
+}
+
+
+/* footer css */
+footer{
+    background: #344E41;
+    min-height: 30vh;
+    padding: 40px;
+    font-family: Lora;
+    color: #D1ECBA;
+}
+
+footer i{
+    font-size: 20pt;
+    margin: 10px;
+    color:#D1ECBA;
+}
+/* MEDIA QUERIES */
+
+/* TABLET  */
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 960px){
+    #about p{
+        font-family: Afacad;
+        font-size: 12pt;
+    }
+    #portImg{
+        height : 500px;
+    }
+
+    footer{
+        padding: 50px;
+        height: 20vh;
+    }
+
+}
+
+/* MOBILE */
+@media only screen and (max-width: 480px){
+    #about p{
+        font-family: Afacad;
+        font-size: 12pt;
+    }
+    #portImg{
+        height : 300px;
+    }
+
+    footer{
+        padding: 50px;
+        height: 20vh;
+    }
+}
